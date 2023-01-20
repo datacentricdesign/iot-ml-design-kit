@@ -1,8 +1,9 @@
+remote_theme: pmarsceill/just-the-docs
 title: IoT ML Design Kit
 description: 
-theme: just-the-docs
 
-url: https://datacentricdesign.github.io/iot-ml-design-kit
+baseurl: "/iob22"
+url: "https://datacentricdesign.github.io"
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
