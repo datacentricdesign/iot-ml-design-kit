@@ -1,5 +1,8 @@
 ---
-
+layout: default
+title: Data Collection Guide
+nav_order: 3
+parent: "Guides"
 ---
 
 # Data Collection Guide
