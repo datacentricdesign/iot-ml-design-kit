@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Test Page
+title: User Guide
 nav_order: 1
-parent: "Test Chapter"
+parent: "Guides"
 ---
 
 # User Guide
