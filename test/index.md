@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Chapter
+title: Guides
 has_children: true
 nav_order: 1
 ---
