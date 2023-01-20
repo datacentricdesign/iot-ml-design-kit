@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Preprocessing Technicalities"
+title: Preprocessing Technicalities
 nav_order: 0
 parent: "Technicalities"
 ---
