@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Glossary
-nav_order: 4
-parent: "Guides"
+nav_order: 0
+parent: "Other Documents"
 ---
 
 # Glossary

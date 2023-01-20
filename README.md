@@ -1,3 +1,9 @@
+# Machine learning for IDE students
+
+This repo is created for the document website of the AI minor capstone project "Machine Learning for Designers with IoT Dataflows" and is used by designers using our product.
+
+-----------
+
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
