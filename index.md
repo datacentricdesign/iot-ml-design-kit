@@ -5,22 +5,23 @@ nav_order: 0
 ---
 
 # Welcome to the Machine Learning for Designers application! 
-
-On this page, we will introduce you to the process of using machine learning in product development.
+On this page, we will introduce you to the process of using machine learning (ML) in product development.
 
 ## Overview
 ### Getting acquainted with ML
 1. Read through this page 
 2. Open the Notebook and go through the Use Case
+
 ### Preparing your data
 3. Collecting your own data
 4. Preprocessing
+
 ### Inspecting user behavior
 5. Labeling and training
 6. Investigating output and results
 
 ## Some additional information about the steps
-_Steps 1-2_: If you've never used Anaconda before or you're not sure if you've opened the right Notebook, consult the [Installation Guide](https://datacentricdesign.github.io/iot-ml-design-kit/guide/installation_guide.html)
+_Steps 1-2_: If you've never used Anaconda before or you're not sure if you've opened the right Notebook, consult the [Installation Guide](https://datacentricdesign.github.io/iot-ml-design-kit/guide/installation_guide.html). An overview of some machine learning terms you might not be familiar with can be found in our [Glossary](https://datacentricdesign.github.io/iot-ml-design-kit/other_documents/glossary.html)
 
 _Steps 3-4_: To collect data, you will be using a sensor with a camera yourself. The data collection process consists of a test person using your prototype while the sensor is picking up signals. Looking at the raw sensor data will probably not make any sense, so to actually generate useful data, we will have to extract all information we need to be able to tell activities apart. This is called preprocessing. 
 
