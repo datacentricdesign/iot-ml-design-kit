@@ -15,14 +15,14 @@ The format is important because Python needs to be able to work with the data. B
 ## Windowing
 We started off with windowing the data; taking an interval from which we extract features. We used sliding windows, which means that the different windows overlap to make sure activities are caught even if they don’t fit one of the windows. As you can see, window W2 overlaps partially with W1 and W3 After processing a window we shift the window some amount of time in the future and extract this data, until the end of the full data stream is processed. As you can see in figure 1 below, the window size is two seconds and the slide time is one second. By using a sliding window we can give every window a classification about what is being done in that particular window.
 
-PLAATJE
+![slidingwindow](https://user-images.githubusercontent.com/122473137/213728097-447c9aa8-7f32-4483-a1d0-1c0ac664c6db.png)
 
 For example, when an activity is happening between one and three seconds, windows W1 and W3 would not be able to correctly classify this activity with a high certainty. W2 however can because it sees the whole action.
 
 ## Time domain
 After we make a new window, we process it in a couple of different so-called domains. One of which is the time domain. The time domain is actually pretty simple. It is the normal graph we get when plotting the sensor data. It shows the amplitude against the time. It looks like the figure 2 beneath.
 
-PLAATJE
+<img width="452" alt="timedomain" src="https://user-images.githubusercontent.com/122473137/213728171-aec31fd4-e428-4286-bde8-68172bacf974.png">
 
 We extract the following features represented in the table below:
 |Feature|Explanation|
