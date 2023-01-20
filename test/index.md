@@ -5,7 +5,7 @@ has_children: true
 nav_order: 1
 ---
 
-# Module 1 Test Chapter
+# Guides
 {: .no_toc }
 
 ## Table of contents
@@ -16,4 +16,4 @@ nav_order: 1
 
 ---
 
-Some text at the chapter level
+On this page, you will find all the guides you will need to use our application.
