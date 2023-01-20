@@ -22,7 +22,7 @@ In this guide, we will introduce you to the process of using machine learning in
 # Getting acquainted with ML
 
 1. Read through this document to learn more about the machine learning process
-→ [Python Installation Guide](LINK.......)
+→ [Python Installation Guide](https://datacentricdesign.github.io/iot-ml-design-kit/Guides/installation-guide.html)
 2. Open the [Notebook](LINK...) and go through the Use Case
 
 # Preparing your data
