@@ -3,6 +3,7 @@ layout: default
 title: Active Learning Technicalities
 nav_order: 1
 parent: "Technicalities"
+grant_parent: "Other Documents"
 ---
 
 The technique we will be using to train models is called active learning. The way it generally works is by selecting a couple of starting points you will label, then using an algorithm to find and label the least certain points. 
