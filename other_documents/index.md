@@ -5,4 +5,4 @@ has_children: true
 nav_order: 2
 ---
 
-table of contents...
+You can find other documents on this page. To download the data collection consent form, click [here](link)
