@@ -8,7 +8,7 @@ grand_parent: "Other Documents"
 
 # Preprocessing Technicalities
 
-The raw data you collected is messy and can not be understood by the model very well. To get an understanding of this data, we need to perform preprocessing. 
+The raw data you collected is messy and cannot be understood by the model very well. To get an understanding of this data, we need to perform preprocessing. 
 
 The format is important because Python needs to be able to work with the data. But more importantly is the feature extracting. This is a process in which you derive values from raw data. An example could be an average from a set of numbers. This will make sure the model has enough relevant data which improves accuracy and reliability, reduces overfitting and speeds up training. We did this process in a couple of steps explained below.
 
@@ -25,13 +25,13 @@ After we make a new window, we process it in a couple of different so-called dom
 <img width="452" alt="timedomain" src="213728171-aec31fd4-e428-4286-bde8-68172bacf974.png">
 
 We extract the following features represented in the table below:
-|Feature|Explanation|
-|---|---|
-|Minimum|The lowest point of the graph|
-|Maximum|The highest point of the graph|
-|Average|Average of the data points in the window|
-|Standard deviation|Standard deviation of the values in the window|
-|Area under the curve|Area that is under the graph|
+| Feature              | Explanation                                    |
+|----------------------|------------------------------------------------|
+| Minimum              | The lowest point of the graph                  |
+| Maximum              | The highest point of the graph                 |
+| Average              | Average of the data points in the window       |
+| Standard deviation   | Standard deviation of the values in the window |
+| Area under the curve | Area that is under the graph                   |
 
 ## Frequency domain
 The frequency domain is more complicated. Because the time domain consists of a combination of a lot of sinus components, we can extract these individual components by the use of a fourier transformer. We won’t explain the whole process of this, but it is a well known method for example extracting WiFi signals, isolating audio and improving images. We will use it to extract additional features that are hidden from us in the time domain.
