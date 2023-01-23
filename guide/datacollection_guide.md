@@ -7,6 +7,8 @@ parent: "Guides"
 
 # Data Collection Guide
 
+## Collecting Data
+
 Now that you read through the guide and used the product, we hope you’ll have a good idea of how it works. 
 You can now start collecting your own data, train a model, then analyze user behavior. The data you collect has a great impact on the final output, so please read through the following remarks carefully. 
 **You can start only after you’ve checked off all the boxes**.
@@ -40,4 +42,10 @@ You are using no other sensor than an accelerometer and/or gyroscope. **For sour
 
 Each of the expected activities gets recorded for **at least 30 seconds**
 
-Now that you have your data, you can start processing it. export gopro?..., continue to notebook
+## Extracting Data
+
+Now that you have collected some data, you will need to make sure it's useable in the Notebook. Note that this application only supports the extraction of GoPro data.
+
+The first step is extracting the GoPro MP4 data into a .json file. To do this, follow the instructions on [this](https://www.trekview.org/blog/2022/gopro-telemetry-exporter-getting-started/) page. 
+
+Then, use our jsontocsv program to convert the .json file to .csv files with timestamps. 
