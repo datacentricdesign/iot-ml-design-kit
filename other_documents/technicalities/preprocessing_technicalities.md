@@ -25,6 +25,7 @@ After we make a new window, we process it in a couple of different so-called dom
 <img width="452" alt="timedomain" src="213728171-aec31fd4-e428-4286-bde8-68172bacf974.png">
 
 We extract the following features represented in the table below:
+
 | Feature              | Explanation                                    |
 |----------------------|------------------------------------------------|
 | Minimum              | The lowest point of the graph                  |
