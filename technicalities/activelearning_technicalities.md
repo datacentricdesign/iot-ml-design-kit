@@ -3,7 +3,6 @@ layout: default
 title: Active Learning Technicalities
 nav_order: 1
 parent: "Technicalities"
-grand_parent: "Other Documents"
 has_children: false
 ---
 

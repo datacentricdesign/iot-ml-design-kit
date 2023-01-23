@@ -3,7 +3,6 @@ layout: default
 title: Preprocessing Technicalities
 nav_order: 0
 parent: "Technicalities"
-grand_parent: "Other Documents"
 ---
 
 # Preprocessing Technicalities
