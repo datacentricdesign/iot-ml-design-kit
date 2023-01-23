@@ -10,14 +10,17 @@ On this page, we will introduce you to the process of using machine learning (ML
 ## Overview
 ### Getting acquainted with ML
 1) Read through this page 
+
 2) Open the Notebook and go through the Use Case
 
 ### Preparing your data
 3) Collecting your own data
+
 4) Preprocessing
 
 ### Inspecting user behavior
 5) Labeling and training
+
 6) Investigating output and results
 
 ## Some additional information about the steps
