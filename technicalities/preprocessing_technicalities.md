@@ -7,7 +7,7 @@ parent: "Technicalities"
 
 # Preprocessing Technicalities
 
-The raw data you collected is messy and can not be understood by the model very well. To get an understanding of this data, we need to perform preprocessing. 
+The raw data you collected is messy and cannot be understood by the model very well. To get an understanding of this data, we need to perform preprocessing. 
 
 The format is important because Python needs to be able to work with the data. But more importantly is the feature extracting. This is a process in which you derive values from raw data. An example could be an average from a set of numbers. This will make sure the model has enough relevant data which improves accuracy and reliability, reduces overfitting and speeds up training. We did this process in a couple of steps explained below.
 
@@ -24,15 +24,32 @@ After we make a new window, we process it in a couple of different so-called dom
 <img width="452" alt="timedomain" src="213728171-aec31fd4-e428-4286-bde8-68172bacf974.png">
 
 We extract the following features represented in the table below:
-|Feature|Explanation|
-|---|---|
-|Minimum|The lowest point of the graph|
-|Maximum|The highest point of the graph|
-|Average|Average of the data points in the window|
-|Standard deviation|Standard deviation of the values in the window|
-|Area under the curve|Area that is under the graph|
+
+| Feature              | Explanation                                    |
+|----------------------|------------------------------------------------|
+| Minimum              | The lowest point of the graph                  |
+| Maximum              | The highest point of the graph                 |
+| Average              | Average of the data points in the window       |
+| Standard deviation   | Standard deviation of the values in the window |
+| Area under the curve | Area that is under the graph                   |
 
 ## Frequency domain
 The frequency domain is more complicated. Because the time domain consists of a combination of a lot of sinus components, we can extract these individual components by the use of a fourier transformer. We won’t explain the whole process of this, but it is a well known method for example extracting WiFi signals, isolating audio and improving images. We will use it to extract additional features that are hidden from us in the time domain.
 
+![time-to-freq](time-to-freq.png)
 
+After the fourier transformation, we can see the contribution of the different frequencies that are part of the time domain. This data can give us for example the most important frequency, which could be different for some or every activity.The following graph is an example we extracted from our own data.
+
+![fourier](fourier.png)
+
+Features we extract from the frequency domain are the following:
+
+| Feature              | Explanation                                                                                   |
+|----------------------|-----------------------------------------------------------------------------------------------|
+| Centroid frequency   | The point where the total power right from that point is equal to the left part of that point |
+| Maximum power        | The maximum power of the sensors                                                              |
+| Peak value frequency | Most present frequency                                                                        |
+
+After we extracted all these features from the X, Y and Z axis of both the accelerometer and gyroscope, we are left with 48 extracted features (8 basic features * 3 axis * 2 sensors).
+
+After extracting features from every window in the time and frequency domain, we finished our preprocessing and we can start training a model. Before this can be done however, we first need to find an appropriate model to train.
