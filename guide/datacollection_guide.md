@@ -38,9 +38,9 @@ Now that you went through the points listed above, you can start off by placing 
 
 Record about **15 minutes** of consecutive movement, where:
 
-You are using no other sensor than an accelerometer and/or gyroscope. **For sources other than GoPro, please keep in mind that other steps might be necessary to convert the data to the right format!**
+- You are using no other sensor than an accelerometer and/or gyroscope. **For sources other than GoPro, please keep in mind that other steps might be necessary to convert the data to the right format!**
 
-Each of the expected activities gets recorded for **at least 30 seconds**
+- Each of the expected activities gets recorded for **at least 30 seconds**
 
 ## Extracting Data
 
