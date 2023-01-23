@@ -7,6 +7,8 @@ grand_parent: "Other Documents"
 has_children: false
 ---
 
+# Active Learning Technicalities
+
 The technique we will be using to train models is called active learning. The way it generally works is by selecting a couple of starting points you will label, then using an algorithm to find and label the least certain points. 
 
 To select the starting points, we are using a combination of functions. We created one function that randomly selects starting points, and another that uses an algorithm to find certain data points. This algorithm is called k-means clustering, and it works like this: in the first iteration, all points get assigned a certain label. All data points with the same label, belong to the same cluster. Based on information contained in each data point, the algorithm is able to compute an average over all the points in a specific cluster. 
