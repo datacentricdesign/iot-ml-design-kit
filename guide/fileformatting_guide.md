@@ -22,13 +22,13 @@ For preprocessing, the datafiles should contain no header, a time column (oftent
 
 ![columns1](columns1.png)
 
-It should not matter if the file is .csv or .txt, as long as the data is separated by commas in the raw file. If you look at your files and find a file like the one below, there are a few things that should be fixed. 
+It should not matter if the file is .csv or .txt, as long as the data is separated by commas in the raw file. If you look at your files and find a file like the one below, there are a few things that should be fixed.
+
+![columns2](columns2.png)
 
 Firstly, notice that there are 4 dysfunctional header lines (including the line that starts with “Time (s)”). To remove this, you can set an extra parameter ‘n_to_check’ in the windowing function to the number of lines you want to skip: in this case 4.
 
 Secondly, you cannot use the accelerometer and gyroscope data in the same file, but these should be added as separate files. For clarity, it would be preferable two have two files, one for the accelerometer and one for the gyroscope data, but it’s achievable with one file using the ‘start’ and ‘stop’ parameters. In calling the ‘pre.windowing’ function for the first time you set ‘start’ to 1 and ‘stop’ to 3, and for the second call you will set ‘start’ to 4 and ‘stop’ to 6. 
-
-![columns2](columns2.png)
 
 The code for properly processing this data would therefore look as follows:
 
