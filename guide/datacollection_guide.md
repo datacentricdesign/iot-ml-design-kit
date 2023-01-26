@@ -44,7 +44,7 @@ Record about **15 minutes** of consecutive movement, where:
 
 ## Extracting Data
 
-Now that you have collected some data, you will need to make sure it's useable in the Notebook. Note that this application only supports the extraction of GoPro data. Other ways of collecting data will require additional steps from the user.
+Now that you have collected some data, you will need to make sure it's useable in the Notebook. Note that this application only supports the extraction of GoPro data. Other ways of collecting data will require [additional steps]( {{ site.baseurl }}/guide/fileformatting_guide.html) from the user.
 
 The first step is extracting the GoPro MP4 data into a .json file. To do this, follow the instructions on [this page](https://www.trekview.org/blog/2022/gopro-telemetry-exporter-getting-started/). 
 
