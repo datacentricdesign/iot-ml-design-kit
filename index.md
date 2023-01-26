@@ -6,7 +6,7 @@ nav_order: 0
 
 # Welcome to the Machine Learning for Designers application! 
 
-[Click here](LINK) to go to the GitHub page where you can find all files neccesary to use the product. Click on the green "code" button and click "Download ZIP" to download all the files.
+[Click here](https://github.com/iantmn/Capstone-AI-IoT) to go to the GitHub page where you can find all files neccesary to use the product. Click on the green "code" button and click "Download ZIP" to download all the files.
 
 On this page, we will introduce you to the process of using machine learning (ML) in product development. 
 
