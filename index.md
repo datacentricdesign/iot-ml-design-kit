@@ -7,7 +7,7 @@ nav_order: 0
 # Welcome to the Machine Learning for Designers application! 
 On this page, we will introduce you to the process of using machine learning (ML) in product development.
 
-[Click here](LINK) to go to the github page of this project.
+[Click here](LINK) to go to the github page of this project. Here you can find all files neccesary to use it. Click on the green "code" button and click "Download ZIP" to download all the files.
 
 ## Overview
 ### Getting acquainted with ML
