@@ -24,7 +24,7 @@ On this page, we will introduce you to the process of using machine learning (ML
 6) Investigating output and results
 
 ## Some additional information about the steps
-_Step 1_: If you've never used Anaconda before or you're not sure if you've opened the right Notebook, consult the [Installation Guide]({{ site.baseurl }}/guide/installation_guide.html). An overview of some machine learning terms you might not be familiar with can be found in our [Glossary]({{ site.baseurl }}//glossary.html). 
+_Step 1_: If you've never used Anaconda before or you're not sure if you've opened the right Notebook, consult the [Installation Guide]({{ site.baseurl }}/guide/installation_guide.html). An overview of some machine learning terms you might not be familiar with can be found in our [Glossary]({{ site.baseurl }}/glossary/). 
 
 _Step 2_: If this is your first time using the product, we strongly recommend that you follow the demo. Here, you will go through the steps, but with data we collected and prepared for you. This way, you will interactively see what the data, variables and performance are supposed to look like.
 
