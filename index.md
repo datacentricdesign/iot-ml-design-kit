@@ -13,7 +13,7 @@ On this page, we will introduce you to the process of using machine learning (ML
 ## The product
 If you are a designer wanting to analyze how people will be using your product in real-time, you've probably had to go through the lengthy process of prototype testing. You might have even considered using sensors to make it easier to analyze larger amounts of data, but realized that it's useless in its raw form, and you were stuck on having to investigate it manually for hours on end. We created this tool to make sense of this otherwise difficult to interpret data, and classify behavior for you to analyze efficiently. More specifically, you will be presented a chart showing the frequencies and distribution of behavior, as well as short clips showing parts of your recording where unexpected behavior occured. And the best part is, you don't need any coding experience whatsoever to benefit from the power of machine learning. 
 
-PLAATJE STRIP
+![afbeelding_strip](strip.jpg)
 
 ## Overview
 ### Getting acquainted with ML
